@@ -1,5 +1,5 @@
 # Задание 1
-
+[![Build Status](https://travis-ci.com/piligr1m/Json.svg?token=6x9RzivecP4pWPUVsqRH&branch=master)](https://travis-ci.com/piligr1m/Json)
 
 
 Реализовать парсер данных в формате JSON.
