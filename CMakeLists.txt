@@ -15,7 +15,7 @@ enable_testing()
 
 add_library(json STATIC json_lib/json.cpp)
 
-add_executable(test_json main.cpp)
+add_executable(test_json sources/main.cpp)
 
 target_link_libraries(test_json json)
 
