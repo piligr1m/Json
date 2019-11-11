@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-   const char  * json_data = R"({
+    char  * json_data = R"({
     "lastname" : "Ivanov",
     "firstname" : "Ivan",
     "age" : 25,
