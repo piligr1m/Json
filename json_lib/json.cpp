@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Json Json::parse( std::string& s)
+Json Json::parse(const std::string& s)
     {
         int i = 0;
         string str = "\0";
@@ -16,7 +16,7 @@ Json Json::parse( std::string& s)
         return cur;
     };
 
-Json::Json( std::string& s)
+Json::Json(const std::string& s)
 {
     int i = 1;
     string str;
@@ -130,7 +130,7 @@ Json::Json( std::string& s)
         }
 }
 
-any& Json::operator[]( std::string& key)
+any& Json::operator[](const std::string& key)
 {
     for (int i = 0; i < keys.size(); i++)
     {
